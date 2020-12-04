@@ -1,0 +1,36 @@
+Esta sección fue creada por solicitud de muchos alumnos, que me pedían usar MySQL en node y también otro grupo de alumnos que me pedían utilizar TypeScript.
+
+
+En esta sección puntualmente veremos cosas como:
+
+
+•Usar TypeScript en proyectos de Node
+
+•Conectar MySQL con Node
+
+•Implementar el patrón singleton para el manejo de una única instancia de clase
+
+•Realizar queries de base de datos
+
+•Crear una pequeña base de datos con su usuario de base de datos y permisos.
+
+•Crear un servidor REST
+
+•Manejo de errores
+
+•Entre otras cosas.
+
+•Espero que esta sección les guste y les sea de mucha utilidad.
+
+{
+    npm init
+    npm i express --save
+    npm i copyfiles
+    npm i mysql
+    npm install mysqljs/mysql
+}
+
+npm install @types/mysql --save-dev
+
+*LO QUE TIENE QUE HACER EN LA CONSOLA ES ESCRIBIR tsc --init Y ESTO CREARA EL ARCHIVO tsconfig.json
+*TAMBIEN PARA QUE LOS PAQUETES DE NODE FUNCIONEN DENTRO DE TYPE SCRIPT EN LA CONSOLA -> npm install @types/express --save-dev     ( Luego del slash ponemos el nombre del paquete )
